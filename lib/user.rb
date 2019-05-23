@@ -1,5 +1,6 @@
 class User 
-  attr_accessor :firstname, :lastname
+  attr_reader :firstname, :lastname
+  attr_writer :firstname, :lastname
   
   def initialize(firstname, lastname)
     @firstname = firstname
